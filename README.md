@@ -1,4 +1,4 @@
-# EZ Dropdown v1.0.0
+# EZ Dropdown
 
 Easily create dropdown menus.
 
@@ -25,7 +25,7 @@ $ npm i --save ez-dropdown
 ```
 
 ```js
-const { initializeDropdown } = require("ez-dropdown");
+const { initializeDropdowns } = require("ez-dropdown");
 
-initializeDropdown();
+initializeDropdowns();
 ```
