@@ -38,7 +38,34 @@ class Dropdown {
     });
   }
 
+  static #resetDropdowns() {
+    Array.from(document.querySelectorAll(".dropdown-button-click")).forEach(
+      (button) => {
+        this.#resetElement(button);
+      }
+    );
+
+    Array.from(document.querySelectorAll(".dropdown-button-hover")).forEach(
+      (button) => {
+        this.#resetElement(button);
+      }
+    );
+
+    Array.from(document.querySelectorAll(".dropdown-button-toggle")).forEach(
+      (button) => {
+        this.#resetElement(button);
+      }
+    );
+  }
+
+  static #resetElement(oldElement) {
+    const newElement = oldElement.cloneNode(true);
+    oldElement.parentNode.replaceChild(newElement, oldElement);
+  }
+
   static initializeDropdowns() {
+    this.#resetDropdowns();
+
     Array.from(document.querySelectorAll(".dropdown-button-click")).forEach(
       (button) => {
         this.#initializeClickDropdown(button);
