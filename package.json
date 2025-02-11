@@ -1,0 +1,24 @@
+{
+  "name": "dropdown",
+  "version": "1.0.0",
+  "description": "Dropdown menus for vanilla JavaScript",
+  "main": "dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tio0o0o0o/dropdown-menu.git"
+  },
+  "keywords": [
+    "Dropdown",
+    "Dropdown Menu",
+    "Menu"
+  ],
+  "author": "Tio0o0o0o",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tio0o0o0o/dropdown-menu/issues"
+  },
+  "homepage": "https://github.com/tio0o0o0o/dropdown-menu"
+}
