@@ -1,6 +1,6 @@
 {
   "name": "ez-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Dropdown menus for vanilla JavaScript",
   "main": "dropdown.js",
   "scripts": {

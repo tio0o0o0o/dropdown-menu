@@ -59,4 +59,4 @@ class Dropdown {
   }
 }
 
-exports.initializeDropdowns = Dropdown.initializeDropdowns;
+module.exports = Dropdown;

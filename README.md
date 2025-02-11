@@ -25,7 +25,7 @@ $ npm i --save ez-dropdown
 ```
 
 ```js
-const { initializeDropdowns } = require("ez-dropdown");
+const EzDropdown = require("ez-dropdown");
 
-initializeDropdowns();
+EzDropdown.initializeDropdowns();
 ```
